@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rk0-p9-hNV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lab3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lgA-Zz-f12">
+                                <rect key="frame" x="24" y="617" width="230" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhA-Ia-P4Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.60920705340000003" green="0.57783645419999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sBY-LE-S8j"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpf-tr-CKm">
+                                        <rect key="frame" x="40" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UMM-4u-9O7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nR1-1H-tg5">
+                                        <rect key="frame" x="80" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="18s-24-bAc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpe-jd-ep0">
+                                        <rect key="frame" x="120" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.2326371018" blue="0.20433567180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CCG-ae-SeZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNa-J4-jbu">
+                                        <rect key="frame" x="160" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQc-CA-MeB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vei-hO-g22">
+                                        <rect key="frame" x="200" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zE4-2q-sca"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="2Ac-XF-3Pt"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="2XU-xg-qXL"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="38M-Vk-BAZ"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="3Cx-Du-NEe"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="3pd-bC-VWy"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="3x1-Kp-g9l"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="4i0-Fc-CFK"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="4rk-CQ-TBR"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="5Ec-lF-Knq"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="6dF-YX-2km"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="7Kh-Dc-ETF"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="8mI-sR-JoQ"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="A0g-qY-FQA"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="ArE-Xo-U7x"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="B5c-zt-NUu"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="Mpf-tr-CKm" secondAttribute="baseline" id="B99-dF-S5L"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="BDG-6e-7Ug"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="BJx-0w-P1P"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="BpJ-wm-ZIJ"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="CJs-fg-a2C"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="CKx-He-4tP"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="Dg2-oO-BGp"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="EVk-Sx-Ytb"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="Es3-U4-7Hb"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="FCO-TR-aUo"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="Fd3-qA-eIM"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="GHb-B2-MBT"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="GLB-Kb-Wb3"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="Gp5-KQ-xPu"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="H4Y-sx-lFA"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="Hbn-lq-vmS"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="Mpf-tr-CKm" secondAttribute="baseline" id="IBa-sq-IVa"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="IPX-cV-L3Z"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="Ihr-Vo-Hm2"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="IpK-n1-I2h"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="LWB-ht-8qu"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="LnH-h5-5m3"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="Ls1-R2-erj"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="Mpf-tr-CKm" secondAttribute="baseline" id="McU-0N-ncf"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="Nid-PW-vka"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="O6U-3L-3Kz"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="OVE-Fn-Cv0"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="PGU-Pn-etZ"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="PmD-mG-p9f"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="Puw-Gi-Kmq"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="QFX-fR-ZnZ"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="R8O-Wl-yi8"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="RE1-7l-67E"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="RND-nR-fRj"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="S2b-zh-tWD"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="SfM-AA-2HB"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="Suh-BO-gr8"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="Ttx-ch-iJW"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="TxX-X1-kyW"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="UGF-bB-xoA"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="UVH-nT-4II"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="UmQ-zr-Wyy"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="W17-4K-Wsi"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="WJw-j6-WEJ"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="WN7-XY-q6y"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="Mpf-tr-CKm" secondAttribute="baseline" id="XTx-6e-5AB"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="Xqp-Q2-Qev"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="Y31-6m-177"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="aZr-x3-EMR"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="aaR-8V-gOQ"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="abU-hz-F40"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="aur-n5-CNB"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="avp-oE-VCD"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="awK-oi-2iA"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="cYJ-aI-UPz"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="cro-YZ-e75"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="dMP-d0-BNe"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="dVR-Ma-zmF"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="e6F-ge-AN3"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="fIX-gr-Zae"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="gQN-8S-Q8V"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="gdK-00-egU"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="gwk-cS-8uS"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="hYr-EM-6zV"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="i9F-Zn-ZAM"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="iDa-97-XLu"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="iSM-0n-pJu"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="jB9-ED-K0s"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="kH7-6K-oHg"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="kfx-JZ-UAK"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="ki6-hq-uai"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="l7B-4y-w05"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="lP3-HB-Dyk"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="llg-an-Dp7"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="llu-te-6Ja"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="luF-aQ-azb"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="lzh-ki-DeD"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="mFB-DT-RNg"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="mLA-ah-pX3"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="mTZ-qt-rUf"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="mt7-dV-Ga0"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="Mpf-tr-CKm" secondAttribute="firstBaseline" id="oJD-HP-KdD"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="ohP-fc-pFf"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="oiC-q8-4H9"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="pTT-9m-NVI"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="nR1-1H-tg5" secondAttribute="baseline" id="pXZ-tt-T8N"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="pjg-kw-JPK"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="q98-JG-5v8"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="Mpf-tr-CKm" secondAttribute="baseline" id="qSK-bd-Jcm"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="r9p-8p-LE6"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="uBc-0L-WzO"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="ugf-xw-jTy"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="umn-TQ-x0g"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="baseline" secondItem="Qpe-jd-ep0" secondAttribute="baseline" id="utJ-6P-pRj"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="vAF-43-0KO"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="Qpe-jd-ep0" secondAttribute="firstBaseline" id="vC3-cb-SZh"/>
+                                    <constraint firstItem="nR1-1H-tg5" firstAttribute="firstBaseline" secondItem="vei-hO-g22" secondAttribute="firstBaseline" id="viH-xe-ZOY"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="baseline" secondItem="MNa-J4-jbu" secondAttribute="baseline" id="wpK-dm-I1w"/>
+                                    <constraint firstItem="QhA-Ia-P4Z" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="xRk-QG-K1L"/>
+                                    <constraint firstItem="Mpf-tr-CKm" firstAttribute="baseline" secondItem="QhA-Ia-P4Z" secondAttribute="baseline" id="xuY-5R-zZM"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="baseline" secondItem="vei-hO-g22" secondAttribute="baseline" id="yn5-ef-DwW"/>
+                                    <constraint firstItem="MNa-J4-jbu" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="yuf-0f-FfQ"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="QhA-Ia-P4Z" secondAttribute="firstBaseline" id="z9L-6h-QS9"/>
+                                    <constraint firstItem="vei-hO-g22" firstAttribute="firstBaseline" secondItem="MNa-J4-jbu" secondAttribute="firstBaseline" id="zaN-ba-bwQ"/>
+                                    <constraint firstItem="Qpe-jd-ep0" firstAttribute="firstBaseline" secondItem="nR1-1H-tg5" secondAttribute="firstBaseline" id="zgE-VA-p0Y"/>
+                                </constraints>
+                            </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="P1O-n3-59y">
+                                <rect key="frame" x="259" y="569" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderChangeColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="lsE-NF-u8h"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pvu-R4-swq">
+                                <rect key="frame" x="128" y="569" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderChangeColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="FQc-d7-i6m"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KfL-XR-fxb">
+                                <rect key="frame" x="-2" y="569" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="1" green="0.2326371018" blue="0.20433567180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="thumbTintColor" red="1" green="0.2326371018" blue="0.20433567180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="sliderChangeColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="z5Q-fv-cDx"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lgA-Zz-f12" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="gqx-gN-8oI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lgA-Zz-f12" secondAttribute="bottom" constant="20" id="wtN-rq-aWY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gA4-EB-PG7">
+                        <nil key="title"/>
+                        <leftBarButtonItems>
+                            <barButtonItem style="plain" id="FyB-kc-vg7">
+                                <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="whH-7Y-8v2">
+                                    <rect key="frame" x="16" y="5" width="83" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </slider>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="LBQ-Ak-xN7">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="neQ-1b-sns">
+                                    <rect key="frame" x="107" y="7" width="38" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Undo"/>
+                                    <connections>
+                                        <action selector="undoScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u04-GV-fL3"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="iBr-jt-grx">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Le7-Zy-aI8">
+                                    <rect key="frame" x="153" y="7" width="36" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Clear"/>
+                                    <connections>
+                                        <action selector="clearScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vqW-8p-0eO"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="uz0-ym-QK9">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="q5F-eG-yKI">
+                                <rect key="frame" x="279" y="7" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ScreenShot">
+                                    <color key="titleColor" red="0.60920705340000003" green="0.57783645419999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="takeScreenShot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9T-2h-P7r"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <action selector="takeScreenShot:" destination="BYZ-38-t0r" id="je3-is-W6y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bSlider" destination="P1O-n3-59y" id="8ZK-0W-0q0"/>
+                        <outlet property="gSlider" destination="pvu-R4-swq" id="MXL-oE-piL"/>
+                        <outlet property="rSlider" destination="KfL-XR-fxb" id="TP0-8S-TkF"/>
+                        <outlet property="radiusSlider" destination="whH-7Y-8v2" id="OS4-G2-Y7Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1064.8" y="121.88905547226388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HeD-1g-arf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rk0-p9-hNV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gb4-vT-CRb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ORe-BV-Lk8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNg-BC-3tR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+</document>
